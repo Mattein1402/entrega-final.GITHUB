@@ -1,40 +1,259 @@
-h1 {
-  color: red;
-  font-family: Arial, Helvetica, sans-serif;
+.titulo-principal{
+    color:white;text-align:center ;font-size: 55px;font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
-  color: aqua;
+body{background-color: rgb(231, 220, 220);}
+
+a{color:white;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    ;
 }
 
-p {
-  color: yellow;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+ul{
+    list-style: none;
+    display: flex;
 }
 
-body {
-  background-color: rgb(27, 27, 27);
+body{background-color: rgb(27, 27, 27);}
+
+.a-secundario{
+    color: aliceblue;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10px;
+.parrafo-anuncio{
+    background-color:rgba(0, 0, 0, 0.342);color: yellow;text-align: center;font-size: 15px;font-family: Arial, Helvetica, sans-serif;padding: 10px;;
+
 }
 
-header {
-  border-bottom: 3px solid rgb(0, 0, 0);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
+.parrafo-anuncio span{ font-weight:bolder;}
+
+header{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
-ul {
-  list-style: none;
-  display: flex;
+.stock-h2{
+    
+    color: red;
+}
+.img-1 { width: 250px;   
 }
 
-/*# sourceMappingURL=style.css.map */
+.img-logo{
+    width: 60px;
+    display: flex;
+}
+
+.menu{ 
+    width:60px;
+}
+.menu a{
+    margin-right: 10px;
+}
+
+.div-parrafo{
+    align-self: center;
+    background-color:rgba(0, 0, 0, 0.342) ;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-left: 35px;
+}
+p{ color:aliceblue;}
+
+.titulo-stock{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.titulo-preguntas{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.titulo-contacto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.titulo-chucu{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.div-piepagina{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.img-soldadura{
+    width: 250px;
+}
+
+.section-chucu{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.grid-stock{
+    border: 2px solid ;
+    margin: 35px;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(3, 150px);
+    gap: 25px;
+
+}
+.h2-contacto{
+    color: rgb(252, 5, 5);
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-div{
+    display: flex;
+    justify-content: center;
+}
+
+.section-div .div-img{
+    width: 150px;
+    margin-right: 105px;
+    
+    
+    
+}
+.section-div .div-parrafo{
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-left: 35px;
+ 
+}
+.productContainer{
+    
+    gap: 15px;
+    padding: 10px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.productCard{
+    width: 294px;
+    border: outset 4px rgb(27, 27, 27);
+    border-radius: 25px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.342) 0px 2px 8px 0px;
+    align-items: center;
+    padding-bottom: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content:space-between;
+    display: flex;
+    
+    
+
+}
+.productImg{
+    height: 280px;
+    overflow: hidden;
+    object-position: center center;
+    border-bottom: 4px rgb(0, 0, 0);
+    border-radius: 15px;
+    align-items: center;
+    
+   
+}
+.productCounter{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.productCard img{
+    width: 100%;
+}
+.stock-body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1fr 100%;
+    color: rgb(235, 220, 220);
+    align-items: center;
+}
+.stock-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    
+}
+.h3{
+    color: red;
+}
+.h2-preguntas{
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+
+}
+.parrafo-preguntas{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo-preguntas-1{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.parra-index{
+    text-align: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    &:hover{
+        background-color: black;
+        font-size: 1.5rem;
+    }
+}
+.parra-contacto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1rem;
+
+}
+.parrafowasa{
+    text-align: center;
+}
+.nav-preguntas{
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.h2-preg{
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parra-pregunta{
+    color: red;
+    font-size: 1.5rem;
+}
+.preg{
+    color: yellow;
+}
